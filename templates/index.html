@@ -30,6 +30,7 @@
 				<li><a href="#extra">Things I Can Do</a></li>
 				<li><a href="#accomplishments">A Few Accomplishments</a></li>
 				<li><a href="#contact">Contact</a></li>
+				<div class="counter-number">Couldn't read views</div>
 			</ul>
 		</nav>
 		<footer>
@@ -140,7 +141,7 @@
 							<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
 							<div class="col-12">
 								<ul class="actions">
-									<li><input type="submit" class="primary" value="Send Message" /></li>
+									<li><input type="submit" onClick="submitToAPI(event)" class="primary" value="Send Message" /></li>
 									<li><input type="reset" value="Reset Form" /></li>
 								</ul>
 							</div>
@@ -501,6 +502,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<script src="./static/assets/js/breakpoints.min.js"></script>
 	<script src="./static/assets/js/util.js"></script>
 	<script src="./static/assets/js/main.js"></script>
+	<script src="./index.js"></script>
 
 </body>
 
